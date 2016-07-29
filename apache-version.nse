@@ -5,7 +5,7 @@ local stdnse = require "stdnse"
 local table = require "table"
 
 description = [[
-Grabs the HTTP header for apache off of root path and checks server version
+Grabs the HTTP header for apache off of '/'. Checks the server version to ensure it is relatively current
 ]]
 
 author = "Zack Nagaich"
